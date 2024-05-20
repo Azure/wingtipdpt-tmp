@@ -21,7 +21,7 @@
         "properties": { 
             "mode": "Incremental", 
             "templateLink": {
-            "uri": "https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/standalone/wingtiptickets.json",
+            "uri": "https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/standalone/wingtiptickets.json",
             "contentVersion": "1.0.0.0"
             }, 
             "parameters": {
