@@ -27,12 +27,12 @@
     "tenantServerName": "[concat('tenants1','-',variables('multiTenantSuffix'))]",
     "tenantDatabaseName": "tenants1",
     "tenantServer": "[concat(variables('tenantservername'),'-',variables('lowerCaseUser'))]",
-    "tenantDatabaseStorageUri": "https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/multitenant/tenants1.bacpac",
-    "catalogDatabaseStorageUri": "https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/wingtipcatalogdb.bacpac",
-    "baseTenantDatabaseStorageUri": "https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/multitenant/basetenantdb.bacpac",
+    "tenantDatabaseStorageUri": "https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/multitenant/tenants1.bacpac",
+    "catalogDatabaseStorageUri": "https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/wingtipcatalogdb.bacpac",
+    "baseTenantDatabaseStorageUri": "https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/multitenant/basetenantdb.bacpac",
     "wtpEventsAppTrafficManagerUniqueDnsName": "[concat('events.wingtip','-',variables('multiTenantSuffix'),'.',variables('lowerCaseUser'))]",
     "wtpEventsApp": "[concat('events-wingtip-',variables('multiTenantSuffix'),'-',variables('lowerCaseUser'))]",
-    "wtpEventsAppPackageUri": "https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/multitenant/eventsAppPackage.zip"
+    "wtpEventsAppPackageUri": "https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/multitenant/eventsAppPackage.zip"
   },
   "resources": [
     {
