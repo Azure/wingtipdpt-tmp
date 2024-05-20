@@ -23,10 +23,10 @@
     "sqlEdition": "Standard",
     "tenantDatabaseName": "[parameters('tenantName')]",
     "tenantServer": "[concat(parameters('tenantName'),'-',variables('lowerCaseUser'))]",
-    "tenantDatabaseStorageUri": "[concat('https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/standalone/', parameters('tenantName'),'.bacpac')]",
+    "tenantDatabaseStorageUri": "[concat('https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/standalone/', parameters('tenantName'),'.bacpac')]",
     "wtpEventsAppTrafficManagerUniqueDnsName": "[concat('events.',parameters('tenantName'),'.',variables('lowerCaseUser'))]",
     "wtpEventsApp": "[concat('events-',parameters('tenantName'),'-',variables('lowerCaseUser'))]",
-    "wtpEventsAppPackageUri": "https://wtdemoresourcestemp.blob.core.windows.net/wtdemoresourcestemp/standalone/eventsAppPackage.zip"
+    "wtpEventsAppPackageUri": "https://wtdemoresourcestemp2.blob.core.windows.net/wtdemoresourcestemp/standalone/eventsAppPackage.zip"
   },
   "resources": [
     {
